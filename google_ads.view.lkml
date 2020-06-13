@@ -2,9 +2,9 @@ include: "//@{CONFIG_PROJECT_NAME}/*.view"
 
 # Google Ads configuration for Google Ads Block by Looker
 
-include: "//app-marketing-google-ads-adapter/*.view"
-include: "//app-marketing-google-ads/*.view"
-include: "//app-marketing-common/*.view"
+include: "//local-app-marketing-google-ads-fivetran-bigquery/*.view"
+include: "//local-app-marketing-google-ads/*.view"
+include: "//local-app-marketing-common/*.view"
 
 # Customize measure definitions in this view. Changes will be reflected across all projects.
 view: ad_metrics_base {
